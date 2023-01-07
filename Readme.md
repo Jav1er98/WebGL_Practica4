@@ -1,28 +1,40 @@
-## Práctica 4: Eventos y Movimiento rectilíneo.
-## Objetivo: Resolver las siguientes actividades.
+## Fourth activity WebGL.
+## Objective: Do the following activities
 
-1. Crear un script para mover al objeto jugador con los ejes Horizontal y Vertical.
+1. Go through the tutorial on textures and WebGL. You have the material in the virtual classroom. The mesh.py file under the pdf allows to correctly generate the information of the static meshes with texture coordinates. You have both the link to the starting project (only until collisions) and the final resulting project. For the incorporation of the textures it is necessary to correct the component Blazor.Expansions.Canvas. In the pdf of the tutorial, in its appendix I explain how to do it.
 
-      ![gif ejercicio 1](/gifs/Ejercicio1.gif)
-      
-2. Implementar una UI que permita configurar con qué velocidad te moverás: turbo o normal. También debe mostar la cantidad de objetos recolectados y si chocas con alguno especial restar fuerza. 
+2. Incorporate your results from activities 1 and 2 into the project.
 
-      ![gif ejercicio 2_1](/gifs/Ejercicio2_1.gif)
-      ![gif ejercicio 2_2](/gifs/Ejercicio2_2.gif)
-      ![gif ejercicio 2_4](/gifs/Ejercicio2_4.gif)
+Once the Blazor.Expansions.Canvas component has been corrected, we will follow the tutorial through the pdf resulting in the textures of the cubes, but we are also asked to incorporate what was done in the previous practices of the subject.
 
-3. Agregar a tu escena un objeto que al ser recolectado por el jugador haga que otro objetos obstáculos se desplacen de su trayectoria. 
-       
-      ![gif ejercicio 2_3](/gifs/Ejercicio2_3.gif)
-       
-4. Agrega un objeto que te teletransporte a otra zona de la escena.
+Among these activities we have to incorporate greater ranges of movement to the ship.
 
-      ![gif ejercicio 4](/gifs/Ejercicio4.gif)
-      
-5. Agrega un personaje que se dirija hacia un objetivo estático en la escena.
+![gif ejercicio 1](/images/Captura1.png)
 
-      ![gif ejercicio 5](/gifs/Ejercicio5.gif)
-      
-6. Agrega un personaje que siga el movimiento del jugador. 
+![gif ejercicio 1](/images/Captura2.png)
 
-      ![gif ejercicio 6](/gifs/Ejercicio6.gif)
+To complete we add the shadows as we had in the previous activity. What differentiates this activity from the other one is that in this one we use a task called shadowOperations, which is called in the Draw task. Its functionality is quite similar to that offered by ActorDependentOperations, which is already defined in the project.
+
+![gif ejercicio 1](/images/Captura3.png)
+
+![gif ejercicio 1](/images/Captura4.png)
+
+![gif ejercicio 1](/images/Captura5.png)
+
+![gif ejercicio 1](/images/Captura6.png)
+
+![gif ejercicio 1](/images/Captura7.png)
+
+![gif ejercicio 1](/images/Captura8.png)
+
+![gif ejercicio 1](/images/Captura9.png)
+
+To apply the textures finally we must modify the level.json file
+
+![gif ejercicio 1](/images/Captura10.png)
+
+![gif ejercicio 1](/images/Captura11.png)
+
+And the result is:
+
+![gif ejercicio 1](/images/gif.gif)
